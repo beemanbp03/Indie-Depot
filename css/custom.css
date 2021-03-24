@@ -1,0 +1,117 @@
+/* 
+
+background color: rbga(138, 228, 153, 0.40);
+green: #8AE449;
+
+*/
+
+/*Sets the default colors and fonts for anything inside a body element*/
+body {
+    background-color: #1F1A24;
+    color: white;
+    font-family: 'Courier New', monospace;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    border: none;
+    color: #8AE499;
+}
+
+
+a.loginLink {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 2px;
+    padding: 0.5rem;
+}
+
+a.loginLink:hover {
+    text-decoration: none;
+    color: #8ae499;
+    border-radius: 2px;
+    border: 2px solid #8AE499;
+}
+
+/*Make sure images only encompass the entirety of their column inside the row*/
+img {
+    max-width: 100%;
+}
+
+/*Applies changes to the bootstrap form-control class*/
+.form-control {
+    background-color: #1F1A24;
+    color: white;
+    border: 2px solid white;
+}
+
+/*if user hovers over a submit button*/
+input#submitButton:hover{
+    border: 2px solid #8AE449;
+    color: #8AE499;
+}
+
+/*Apply green color text to all placeholder text in the form-control class*/
+.form-control:placeholder {
+    color: #8AE499;
+}
+
+
+/*Apply green color text to all links in the nav-links class*/
+.nav-link {
+    color: #8AE499;
+}
+
+/*Apply white color text to all hovered links in the nav-links class*/
+.nav-link:hover {
+    color: white;
+}
+
+/*Create Text Box and outline*/
+.textBox {
+    border: 2px solid #8AE499;
+    border-radius: 0.5em;
+    /*background-color: rgba(138, 228, 153, 0.20);*/
+    color: white;
+    padding: 1rem;
+}
+
+.textBoxSolid {
+    text-decoration: none;
+    border: 2px solid #8AE499;
+    border-radius: 0.5em;
+    background-color: rgba(138, 228, 153, 1.00);
+    color: black;
+    padding: 0.5em;
+}
+
+.textBoxSolid:hover {
+    border: 2px solid #8AE499;
+    background-color: #1F1A24;
+    color: white;
+    padding: 0.5em;
+}
+
+div.textBoxSolid a{
+    border-radius: 4px;
+    color: #1F1A24;
+}
+
+div.textBoxSolid:hover a {
+    border-radius: 4px;
+    color: #8AE499;
+}
+
+
+/*LARGE TEXT*/
+
+.large-text {
+    font-size: 30px;
+}
+
+
